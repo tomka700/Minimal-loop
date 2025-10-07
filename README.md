@@ -22,7 +22,7 @@
 ||||||||
 | 24 | 206?   | 48?      | 158?     | 0?       | 9?                 | 48?         |
 ||||||||
-| 0 mod 6 | $\frac{n(n+2)}{3}\text{?}$ | 2n? | $\frac{n(n-4)}{3}\text{?}$ | 0? | $\binom{n/6}{\lfloor n/12 \rfloor}+\binom{n/6-1}{\lfloor (n/6-1)/2 \rfloor}\text{?}$ | $2^{\frac{x}{6}+1}+2^{\frac{x}{6}}\text{?}$ |
+| 0 mod 6 | $\frac{n(n+2)}{3}\text{?}$ | 2n? | $\frac{n(n-4)}{3}\text{?}$ | 0? | $\binom{\frac{n}{6}}{\lfloor \frac{n}{12}\rfloor} + \binom{\frac{n}{6}-1}{\lfloor\frac{\frac{n}{6}-1}{2}\rfloor}\text{?}$ | $2^{\frac{n}{6}+1}+2^{\frac{n}{6}}\text{?}$ |
 
 ---
 
