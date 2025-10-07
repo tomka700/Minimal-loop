@@ -1,6 +1,3 @@
-// g++ -std=c++23 -O3 -march=native -flto -Wall loop.cpp -o loop
-// g++ -std=c++23 -O3 -march=native -flto -Wall -fprofile-generate loop.cpp -o loop
-// g++ -std=c++23 -O3 -march=native -flto -Wall -fprofile-use loop.cpp -o loop
 #include <iostream>
 #include <vector>
 #include <cmath>
@@ -127,4 +124,5 @@ int main() {
     mask |= VERTEX_MASKS[3][1];
 
     dfs(mask, path, 3, 3);
+
 }
