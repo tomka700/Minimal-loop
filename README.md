@@ -43,6 +43,6 @@ g++ -std=c++23 -O3 -march=native -flto loop.cpp -o loop
 
 ### Todo
 - parallelization
-- calc `MAX_LENGTH` using an upper bound
+- calc `MAX_LEN` using an upper bound
 - better exit check
 - prune by symmetry somehow?
